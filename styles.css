@@ -1,1 +1,62 @@
-styling
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: orange;
+}
+
+.header {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.catcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.logo {
+    width: 500px;  
+    height: auto; 
+    display: block;
+    margin-left: 25px;
+
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.submit {
+    background-color: #04AA6D; /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Top/bottom and left/right padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline for anchor tags styled as buttons */
+    display: inline-block; /* Allows setting width/height and other block-level properties */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Changes mouse cursor on hover */
+}
